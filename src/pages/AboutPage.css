@@ -13,7 +13,7 @@
 .about-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color:blue;
   margin-bottom: 1rem;
 }
 
@@ -48,4 +48,11 @@ li {
   
   font-family: Arial, sans-serif;
   color: #333;
+}
+.main-heading {
+  color: #007bff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
