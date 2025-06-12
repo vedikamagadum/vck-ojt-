@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div className="home-scroll-container">
       
-
+    
       <div className="banner-container">
         <h1 className="home-title">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
