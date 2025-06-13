@@ -8,8 +8,7 @@ const HomePage = () => {
 
   return (
     <div className="home-scroll-container">
-      
-    
+      <Header/>    
       <div className="banner-container">
         <h1 className="home-title">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
@@ -38,6 +37,7 @@ const HomePage = () => {
         <p className="home-subtext">Ready to start your journey with us?</p>
         <div className="button-wrapper"> 
         <a href="/courses" className="my-button" onClick={() => setShowForm(true)}>Explore Courses</a>
+        <Footer/>
         </div>
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}

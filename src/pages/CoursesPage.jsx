@@ -6,7 +6,7 @@ const CoursesPage = () => {
     return(
   
   <div style={{ padding: '1rem' }} className="home-scroll-container">
-   
+   <Header/>
     <h1 className='h1'>Our Academic Programs</h1>
     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
     <h1><strong>Discover Campus Life</strong></h1>
@@ -90,7 +90,7 @@ const CoursesPage = () => {
     <p className="home-subtext">Have questions about a specific course?</p>
     <div className="button-wrapper">
       <a href="/contact" className="my-button" onClick={() => setShowForm(true)}>Inquire About Courses</a>
-    
+    <Footer/>
     </div>
      </div>
 
