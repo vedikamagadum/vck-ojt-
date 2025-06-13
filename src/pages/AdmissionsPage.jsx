@@ -8,7 +8,7 @@ import Headers from '../components/Header/Headers';
 const Admissions = () => {
   return (
     <div className="admissions-container">
-     <Headers/>
+     
 
       <h1 className="main-heading">Admissions at Vivekanand College</h1>
       <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community.</p>
@@ -61,7 +61,7 @@ const Admissions = () => {
          <Link to="/courses">Courses page</Link>
           or <Link to="/contact">Contact us</Link> directly.
       </p>
-      <Footer/>
+      
     </div>
   );
 };

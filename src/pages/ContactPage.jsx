@@ -2,11 +2,12 @@ import React from 'react'
 import Header from '../components/Header/Headers';
 import Footer from "../components/Footer/Footers";
 import './ContactPage.css'
+import { Link } from 'react-router-dom';
 const ContactPage = () => { 
     return(
 
   <div style={{ padding: '1rem' }} className="home-scroll-container">
-     <Header/>
+     
     <h1 className='h1'>Contact Us</h1>
     <p>We'd love to hear from you! Whether you have questions about admissions ,
        programs, or campus life, our team is here to help.</p>
@@ -46,7 +47,7 @@ const ContactPage = () => {
     </form>
 
   
-<Footer/>
+
   </div>
 )
 }
