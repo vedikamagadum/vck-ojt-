@@ -89,7 +89,7 @@ const CoursesPage = () => {
     </h5>
     <p className="home-subtext">Have questions about a specific course?</p>
     <div className="button-wrapper">
-      <a href="/contact" className="my-button" onClick={() => setShowForm(true)}>Inquire About Courses</a>
+      <Link to="/contact" className="my-button">Inquire About Courses</Link>
     <Footer/>
     </div>
      </div>
