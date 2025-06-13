@@ -13,7 +13,7 @@ const HomePage = () => {
         <h1 className="home-title">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
         <div className="button-wrapper">
-        <a href="/apply" className="my-button">Apply Now!</a>
+        <Link to="/apply" className="my-button">Apply Now!</Link>
         </div>
       </div>
         <p><strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.</p>
@@ -36,7 +36,7 @@ const HomePage = () => {
         </div>
         <p className="home-subtext">Ready to start your journey with us?</p>
         <div className="button-wrapper"> 
-        <a href="/courses" className="my-button" onClick={() => setShowForm(true)}>Explore Courses</a>
+        <Link to="/courses" className="my-button">Explore Courses</Link>
         <Footer/>
         </div>
         {/* Future: Admission Form Component */}
